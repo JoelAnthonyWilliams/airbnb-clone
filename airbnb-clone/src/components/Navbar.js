@@ -1,9 +1,9 @@
-import Logo from './img/logo.png'
+import logo from '../img/logo.png'
 
 export default function Navbar() {
     return (
         <div className="navbar">
-            <img className="navbar_logo" src={Logo} alt="logo"></img>
+            <img className="navbar_logo" src={logo} alt="logo"></img>
         </div>
     )
 }
