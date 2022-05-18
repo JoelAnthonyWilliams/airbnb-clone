@@ -64,13 +64,18 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 20rem;
+    overflow: hidden;
+    border-radius: 1rem;
 
     &_image {
         display: flex;
         flex-direction: column;
         position: relative;
         width: 100%;
+        min-height: 25rem;
+        background-color: #918E9B;
         margin-bottom: .5rem;
+        border-radius: 1rem;
 
         &-icon {
             position: absolute;
