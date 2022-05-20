@@ -30,23 +30,25 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 2rem;
-
+    margin-bottom: 5rem;
+    padding: 0 2rem;
+    
     &_image {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 5rem;
         
-
+        
         & img {
             min-width: 70%;
         }
     }
-
+    
     &_text {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
         &-title {
             font-size: 5rem;
@@ -60,22 +62,39 @@ body {
         }
     }
 }
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    overflow-x: auto;
+    margin-bottom: 5rem;
+    padding: 0 2rem;
+    align-items: center;
+}
+
 .card {
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    width: 15rem;
     overflow: hidden;
     border-radius: 1rem;
+    margin-bottom: 2.5rem;
 
     &_image {
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 100%;
-        min-height: 25rem;
+        height: 25rem;
         background-color: #918E9B;
         margin-bottom: .5rem;
         border-radius: 1rem;
+        overflow: hidden;
+
+        &-photo {
+            width: 100%;
+        }
 
         &-icon {
             position: absolute;

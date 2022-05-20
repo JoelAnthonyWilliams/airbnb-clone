@@ -1,1 +1,126 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  padding: 2.5rem 5rem;
+  margin-bottom: 5rem;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+.navbar_logo {
+  height: 2.5rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5rem;
+  padding: 0 2rem;
+}
+.hero_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.hero_image img {
+  min-width: 70%;
+}
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero_text-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.hero_text-subtitle {
+  font-size: 2.5rem;
+  font-weight: 300;
+  max-width: 35ch;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x: auto;
+  margin-bottom: 5rem;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+.card_image {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 25rem;
+  background-color: #918E9B;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card_image-photo {
+  width: 100%;
+}
+.card_image-icon {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 99;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+}
+.card_rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.card_rating-score {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 0.25rem;
+}
+.card_rating-score span {
+  color: #918E9B;
+  margin-left: 0.25rem;
+}
+.card_rating-star {
+  height: 1rem;
+}
+.card_title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.card_pricing {
+  font-size: 1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=index.css.map */
